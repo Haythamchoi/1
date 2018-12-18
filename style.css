@@ -1,0 +1,62 @@
+.navbar-haytham {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  height: 104px;
+  padding: 0px 30px;
+}
+
+.navbar-haytham-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-haytham-right a {
+  color: gray;
+  font-size: 14px;
+}
+
+.navbar-haythm-link {
+  font-size: 14px;
+}
+
+.navbar-haytham-link:hover{
+  color: red;
+}
+
+.navbar-haytham-item {
+  padding: 30px;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+  height:100vh;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  padding: 75px;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+
+}
