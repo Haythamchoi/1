@@ -4,15 +4,22 @@ html, body {
   width: 100%;
 }
 
-body {
-  font-family: sans-serif;
-}
-
 header {
   width: 100%;
   height: 100vh;
   background: url(./images/kiyomizu.jpg) no-repeat 50% 50%;
   background-size: cover;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 500px;
+  font-style: oblique;
+  font-size: 12px;
 }
 
 .logo {
@@ -22,6 +29,7 @@ header {
   color: #fff;
   font-weight: bold;
   font-size: 24px;
+  background: transparent;
 }
 
 .menu {
@@ -35,19 +43,17 @@ nav {
 
 nav ul {
   list-style: none;
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
   overflow: hidden;
-  color: #fff
-  padding: 0;
+  color: #fff padding: 0;
   text-align: center;
   margin: 0;
   transition: 1s;
 }
 
-nav.black ul {
-  background: #000;
-}
-
+/* nav.black ul {
+ background: transparent;
+} */
 nav ul li {
   display: inline-block;
   padding: 20px;
@@ -56,7 +62,11 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+nav ul li a:hover {
+  color: gray;
 }
 
 @media(max-width: 580px) {
@@ -74,6 +84,7 @@ nav ul li a {
   nav.black ul {
     background: #000;
   }
+
   .showing {
     max-height: 20em
   }
@@ -84,9 +95,7 @@ nav ul li a {
     padding: 24px 0;
     text-align: center;
   }
-
 }
-
 
 .container {
   display: flex;
@@ -103,8 +112,29 @@ nav ul li a {
   color: gray;
 }
 
+.container-content h1 {
+  font-size: 22px;
+  padding: 42px;
+  color: gray;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.container-content p {
+  font-size: 10px;
+}
+
 .container-picture {
   display: flex;
   justify-content: center;
   height: 100vh;
+}
+
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
 }
