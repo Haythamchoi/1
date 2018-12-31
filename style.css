@@ -129,3 +129,47 @@ nav ul li a:hover {
   justify-content: center;
   height: 100vh;
 }
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 400px 1fr 1fr;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100% 100% 100% 100%;
+  height: calc(100vh - 110px);
+  margin-top: 80px;
+}
+
+.dashboard-card {
+  display: flex;
+  background: white;
+  box-shadow: 2px 2px 4px #C0C0C0;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dashboard-card-content {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.dashboard-card.main {
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/biketrip.jpg);
+}
+
+.dashboard-card.omae {
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/socool.jpg);
+}
+
+.dashboard-card.cat {
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/Baseball.jpg);
+}
