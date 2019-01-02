@@ -282,16 +282,26 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #85B7FF;
   height: 40vh;
+  background-color: #68D1FE;
 }
 
 .layout-content p {
-  font-size: 15px;
-  font-style: italic;
-  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 2px;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 
+.list-inline>li {
+  display: block;
+  margin: 10px;
+  padding: 2px;
+}
 
 
 .fab.fa-instagram {
