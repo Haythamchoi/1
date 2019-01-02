@@ -277,3 +277,40 @@ nav ul li a:hover {
   background-size: cover;
   background-position: center;
 }
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #85B7FF;
+  height: 40vh;
+}
+
+.layout-content p {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+
+
+.fab.fa-instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.fab.fa-facebook-square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.fab.fa-github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
