@@ -303,6 +303,9 @@ nav ul li a:hover {
   padding: 2px;
 }
 
+.list-inline>li a:hover {
+  color: gray;
+}
 
 .fab.fa-instagram {
   display: flex;
