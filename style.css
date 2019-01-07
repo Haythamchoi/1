@@ -212,6 +212,7 @@ nav ul li a:hover {
   text-align: center;
   align-items: center;
   justify-content: space-around;
+  overflow: scroll;
 }
 
 .dashboard-card-content {
