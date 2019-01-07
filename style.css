@@ -193,47 +193,6 @@ nav ul li a:hover {
   opacity: 0.1;
 }
 
-
-/*
-.container-category {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  color: white;
-}
-
-.container-description {
-  position: absolute;
-  color: white;
-  left: 10px bottom: 10px;
-}
-
-.container-description h2 {
-  font-size: 24px;
-}
-
-.container-description p {
-  font-size: 14px;
-  opacity: 0.7;
-  font-weight: lighter;
-}
-
-.container-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  z-index: 2;
-  background: black;
-  opacity: 0;
-}
-
-.container-link:hover {
-  opacity: 0.1;
-}
-*/
 .dashboard {
   display: grid;
   grid-template-columns: 400px 1fr 1fr;
@@ -258,6 +217,7 @@ nav ul li a:hover {
 .dashboard-card-content {
   font-style: italic;
   font-size: 13px;
+  overflow: scroll;
 }
 
 .dashboard-card.main {
