@@ -99,9 +99,29 @@ nav ul li a:hover {
 
 .container {
   display: flex;
+  width: 900px;
+  margin: 0 auto;
   padding: 75px;
   height: 50vh;
   justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container { width: 350px;}
+  .dashboard { width: 500px;}
+  .dashboard-card {width: 200px;}
 }
 
 .container-content {
@@ -139,8 +159,8 @@ nav ul li a:hover {
   font-weight: 300;
 }
 
-
 .card {
+  display: flex;
   padding: 50px;
   margin-top: 100px;
   height: 30vh;
@@ -152,6 +172,7 @@ nav ul li a:hover {
   position: fixed;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
   color: white;
+  border-radius: 10px;
 }
 
 .card-category {
@@ -163,7 +184,6 @@ nav ul li a:hover {
 }
 
 .card-description {
-  position: absolute;
   color: white;
   left: 10px bottom: 10px;
 }
@@ -195,11 +215,11 @@ nav ul li a:hover {
 
 .dashboard {
   display: grid;
-  grid-template-columns: 400px 1fr 1fr;
+  /* grid-template-columns: 400px 1fr 1fr; */
   grid-template-columns: 50% 50%;
   grid-template-rows: 100% 100%;
-  height: calc(100vh - 110px);
-  margin-top: 80px;
+  height: 100vh;
+  margin-top: 180px;
 }
 
 .dashboard-card {
@@ -212,13 +232,12 @@ nav ul li a:hover {
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .dashboard-card-content {
   font-style: italic;
   font-size: 13px;
-  overflow: scroll;
 }
 
 .dashboard-card.main {
