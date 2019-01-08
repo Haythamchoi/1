@@ -110,11 +110,17 @@ nav ul li a:hover {
   .container {
     width: 750px;
   }
+  .container-picture {
+    width: 920px;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     width: 500px;
+  }
+  .container-picture {
+    width: 760px;
   }
 }
 
@@ -122,6 +128,9 @@ nav ul li a:hover {
   .container { width: 350px;}
   .dashboard { width: 500px;}
   .dashboard-card {width: 200px;}
+  .container-picture {
+    width: 400px;
+  }
 }
 
 .container-content {
