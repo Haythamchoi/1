@@ -135,7 +135,7 @@ nav ul li a:hover {
     width: 460px;
   }
   html {
-    width: 130%;
+    width: 120%;
   }
 }
 
@@ -162,7 +162,7 @@ nav ul li a:hover {
 .container-picture {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 72vh;
 }
 
 .container-picture-content {
