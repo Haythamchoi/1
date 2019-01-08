@@ -126,7 +126,7 @@ nav ul li a:hover {
 
 @media (max-width: 480px) {
   .container { width: 350px;}
-  .dashboard { width: 500px;}
+  .dashboard { width: 420px;}
   .dashboard-card {width: 200px;}
   .container-picture {
     width: 400px;
