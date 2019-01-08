@@ -132,7 +132,9 @@ nav ul li a:hover {
   .container-picture {
     width: 435px;
   }
-
+  html {
+    width: 120%;
+  }
 }
 
 .container-content {
