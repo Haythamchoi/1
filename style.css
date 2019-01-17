@@ -101,18 +101,26 @@ nav ul li a:hover {
 
 .container {
   display: flex;
-  width: 900px;
+  /* width: 900px; */
   margin: 0 auto;
   padding: 75px;
-  height: 50vh;
+  /* height: 50vh; pls no height for the container */
   justify-content: center;
   border-radius: 20px;
+}
+
+.container img {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
 }
 
 .tabs {
   display: flex;
   padding: 10px 10px 0px 10px;
   background: #53443F;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .tabs a {
@@ -148,9 +156,12 @@ nav ul li a:hover {
   color: black;
 }
 
+/* it creates the border-radius for the first and the last attributes*/
+
 .tab:first-child {
   border-radius: 10px 0 0 0;
 }
+
 .tab:last-child {
   border-radius: 0 10px 0 0;
 }
@@ -306,6 +317,13 @@ nav ul li a:hover {
 .dashboard-card-content {
   font-style: italic;
   font-size: 13px;
+}
+
+.dashboard-card.nanasaki {
+  background-image: url(./images/biketrip.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50px;
 }
 
 .dashboard-card.main {
