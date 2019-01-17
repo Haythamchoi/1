@@ -107,6 +107,8 @@ nav ul li a:hover {
   /* height: 50vh; pls no height for the container */
   justify-content: center;
   border-radius: 20px;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .container img {
@@ -118,13 +120,13 @@ nav ul li a:hover {
 .tabs {
   display: flex;
   padding: 10px 10px 0px 10px;
-  background: #53443F;
-  margin: 10px;
+  background: #FFBDBD;
+  margin: 0px;
   border-radius: 10px;
 }
 
 .tabs a {
-  color: white;
+  color: #848CB5;
 }
 
 .tabs a:hover {
@@ -137,7 +139,7 @@ nav ul li a:hover {
   flex: 0 0 25%;
   text-align: center;
   padding: 20px 0;
-  background: #756A66;
+  background: #F7E7D6;
 }
 
 .tab p {
@@ -299,12 +301,14 @@ nav ul li a:hover {
   grid-template-rows: 100% 100%;
   height: 100vh;
   margin-top: 180px;
+  margin: auto;
+  padding-top: 50px;
 }
 
 .dashboard-card {
   display: flex;
   background: white;
-  box-shadow: 2px 2px 4px #C0C0C0;
+  box-shadow: none;
   padding: 10px;
   border-radius: 10px;
   margin: 25px;
@@ -318,6 +322,8 @@ nav ul li a:hover {
   font-style: italic;
   font-size: 13px;
 }
+
+
 
 .dashboard-card.nanasaki {
   background-image: url(./images/biketrip.jpg);
@@ -378,6 +384,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+
 }
 
 .fab.fa-facebook-square{
