@@ -120,13 +120,13 @@ nav ul li a:hover {
 .tabs {
   display: flex;
   padding: 10px 10px 0px 10px;
-  background: #FFBDBD;
+  background: #53443F;
   margin: 0px;
   border-radius: 10px;
 }
 
 .tabs a {
-  color: #848CB5;
+  color: white;
 }
 
 .tabs a:hover {
@@ -139,7 +139,7 @@ nav ul li a:hover {
   flex: 0 0 25%;
   text-align: center;
   padding: 20px 0;
-  background: #F7E7D6;
+  background: #756A66;
 }
 
 .tab p {
@@ -355,7 +355,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   height: 40vh;
-  background-color: #68D1FE;
+  background-color: #FEF1F1;
 }
 
 .layout-content p {
