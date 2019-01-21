@@ -101,7 +101,7 @@ nav ul li a:hover {
 
 .container {
   display: flex;
-  /* width: 900px; */
+   width: 900px;
   margin: 0 auto;
   padding: 75px;
   /* height: 50vh; pls no height for the container */
@@ -159,7 +159,6 @@ nav ul li a:hover {
 }
 
 /* it creates the border-radius for the first and the last attributes*/
-
 .tab:first-child {
   border-radius: 10px 0 0 0;
 }
@@ -177,6 +176,9 @@ nav ul li a:hover {
   }
   html {
     width: 125%;
+  }
+  .dashboard {
+    display: block;
   }
 }
 
@@ -202,96 +204,6 @@ nav ul li a:hover {
   html {
     width: 125%;
   }
-}
-
-.container-content {
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
-  padding: 40px;
-  color: gray;
-}
-
-.container-content h1 {
-  font-size: 22px;
-  padding: 42px;
-  color: gray;
-  font-style: italic;
-  font-weight: 300;
-}
-
-.container-content p {
-  font-size: 10px;
-}
-
-.container-picture {
-  display: flex;
-  justify-content: center;
-  height: 72vh;
-  width: auto;
-}
-
-.container-picture-content {
-  display: flex;
-  justify-content: center;
-  padding: 50px;
-  color: black;
-  font-style: italic;
-  font-weight: 300;
-}
-
-.card {
-  display: flex;
-  padding: 50px;
-  margin-top: 100px;
-  height: 30vh;
-  width: inherit;
-  background-size: cover !important;
-  background-image: url(./images/sand.jpg);
-  background-position: center;
-  opacity: 0.8;
-  position: fixed;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-  color: white;
-  border-radius: 10px;
-}
-
-.card-category {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  color: white;
-}
-
-.card-description {
-  color: white;
-  left: 10px bottom: 10px;
-}
-
-.card-description h2 {
-  font-size: 24px;
-}
-
-.card-description p {
-  font-size: 14px;
-  opacity: 0.7;
-  font-weight: lighter;
-}
-
-.card-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  z-index: 2;
-  background: black;
-  opacity: 0;
-}
-
-.card-link:hover {
-  opacity: 0.1;
 }
 
 .dashboard {
@@ -323,8 +235,6 @@ nav ul li a:hover {
   font-size: 13px;
 }
 
-
-
 .dashboard-card.nanasaki {
   background-image: url(./images/biketrip.jpg);
   background-position: center;
@@ -332,22 +242,69 @@ nav ul li a:hover {
   border-radius: 50px;
 }
 
-.dashboard-card.main {
-  background-image: url(./images/biketrip.jpg);
-  background-size: cover;
-  background-position: center;
+/* Create three equal columns that floats next to each other */
+/* .column {
+  float: left;
+  width: 22.22%;
+  padding: 10px;
+  margin: 20px;
+  height: 300px;
 }
+*/
 
-.dashboard-card.ayatuji {
-  background-image: url(./images/socool.jpg);
-  background-size: cover;
+
+
+.card {
+  height: 275px;
+  width: 100%;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
   background-position: center;
+  color: white;
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
 }
-
-.dashboard-card.morishima {
-  background-image: url(./images/vietnam.JPG);
-  background-size: cover;
-  background-position: center;
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
 }
 
 .layout {
