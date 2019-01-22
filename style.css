@@ -181,7 +181,6 @@ nav ul li a:hover {
   .dashboard {
     display: block;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -304,7 +303,7 @@ nav ul li a:hover {
   right: 0;
   width: 100%;
   z-index: 2;
-  background: black;
+  background: pink;
   opacity: 0;
 }
 .card-link:hover {
