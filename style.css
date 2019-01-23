@@ -344,7 +344,6 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-
 }
 
 .fab.fa-facebook-square{
@@ -359,4 +358,9 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+}
+
+.far.fa-file-alt {
+  font-size: 30px;
+  padding: 10px;
 }
