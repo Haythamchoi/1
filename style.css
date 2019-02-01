@@ -232,8 +232,17 @@ nav ul li a:hover {
 }
 
 .dashboard-card-content {
-  font-size: 20px;
+  margin: 40px;
 }
+
+.dashboard-card-content ul {
+  margin: 20px;
+}
+
+.dashboard-card-content li {
+  margin: 10px;
+}
+
 
 .dashboard-card.nanasaki {
   background-image: url(./images/biketrip.jpg);
