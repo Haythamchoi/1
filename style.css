@@ -318,6 +318,11 @@ nav ul li a:hover {
   opacity: 0.1;
 }
 
+
+ul {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
 .layout {
   display: flex;
   justify-content: center;
