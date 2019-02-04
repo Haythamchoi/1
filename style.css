@@ -233,6 +233,7 @@ nav ul li a:hover {
 
 .dashboard-card-content {
   margin: 40px;
+font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
 .dashboard-card-content ul {
@@ -376,4 +377,16 @@ ul {
 .far.fa-file-alt {
   font-size: 30px;
   padding: 10px;
+}
+
+.fas.fa-graduation-cap {
+  margin-top: 20px;
+}
+
+.far.fa-file-alt {
+  margin-bottom: 20px;
+}
+
+.fas.fa-user {
+  margin-bottom: 50px;
 }
