@@ -12,6 +12,10 @@ header {
   background-position: center;
 }
 
+.col-md-12 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 .text-center {
   display: flex;
   justify-content: center;
@@ -64,7 +68,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: gray;
+  color: white;
   font-size: 15px;
 }
 
@@ -101,7 +105,7 @@ nav ul li a {
 }
 
 .menu a:hover {
-  color: blue;
+  color: #14ffc4;
 }
 
 /*
