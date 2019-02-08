@@ -122,7 +122,7 @@ nav ul li a {
   padding: 75px;
   /* height: 50vh; pls no height for the container */
   justify-content: center;
-  border-radius: 20px;
+  /*border-radius: 20px; */
   padding-top: 50px;
 }
 
