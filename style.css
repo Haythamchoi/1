@@ -68,7 +68,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: gray;
   font-size: 15px;
 }
 
@@ -105,7 +105,7 @@ nav ul li a {
 }
 
 .menu a:hover {
-  color: #14ffc4;
+  color: #14ffc4
 }
 
 /*
@@ -350,21 +350,22 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2px;
+  padding: 5px;
   margin: 2px;
   font-size: 12px;
   font-weight: bolder;
   font-family: sans-serif;
+  color: #848484;
 }
 
 .list-inline>li {
   display: block;
-  margin: 10px;
-  padding: 2px;
+  margin-left:60px;
+  padding: 0px;
 }
 
 .list-inline>li a:hover {
-  color: gray;
+  color: #FEF1F1;
 }
 
 .fab.fa-instagram {
